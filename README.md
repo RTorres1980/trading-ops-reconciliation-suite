@@ -1,5 +1,7 @@
 # Trading Ops Reconciliation Suite
 
+![CI](https://github.com/RTorres1980/trading-ops-reconciliation-suite/actions/workflows/ci.yml/badge.svg)
+
 End-of-day controls a broker-dealer operations team runs after the close, built on synthetic data:
 
 1. **Position reconciliation**: roll the internal books forward (start-of-day positions plus the day's trades) and compare them to the custodian's end-of-day positions.
